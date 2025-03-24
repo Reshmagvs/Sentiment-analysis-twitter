@@ -1,6 +1,64 @@
-# Twitter-sentiment-analysis-using-Python-Machine-Learning-Project-8
-This project walks you on how to create a twitter sentiment analysis model using python. Twitter sentiment analysis is performed to identify the sentiments of the people towards various topics. For this project, we will be analysing the sentiment of people towards Pfizer vaccines.    We will be using the data available on Kaggle to create this machine learning model. The collected tweets from Twitter will be analysed using machine learning to identify the different sentiments present in the tweets. The different sentiments identified in this project include positive sentiment, negative sentiment and neutral sentiment. We will also be using different classifiers to see which classifier gives the best model accuracy.
+# Sentiment Analysis Twitter
 
+## Project Overview
+This project demonstrates how to create a Twitter sentiment analysis model using Python. Sentiment analysis is used to determine the emotions and opinions of people on various topics. In this project, we analyze people's sentiment towards Pfizer vaccines by utilizing machine learning techniques on Twitter data.
 
-To see the complete video explanation of this topic, check out the following link:
-https://youtu.be/ng6L_wvREB4
+## Dataset
+The dataset used in this project is obtained from **Kaggle**. The collected tweets from Twitter are analyzed to classify them into three sentiment categories:
+- **Positive**
+- **Negative**
+- **Neutral**
+
+## Tech Stack Used
+- **Programming Language:** Python
+- **Data Collection:** Tweepy, Kaggle dataset
+- **Data Preprocessing:** Pandas, NLTK, Regular Expressions
+- **Feature Extraction:** TF-IDF, Count Vectorizer
+- **Machine Learning Models:**
+  - Logistic Regression
+  - Naïve Bayes
+  - Random Forest
+  - Support Vector Machine (SVM)
+  - XGBoost
+- **Model Evaluation:** Accuracy Score, F1 Score, Confusion Matrix
+- **Visualization:** Matplotlib, Seaborn, WordCloud
+
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/sentiment-analysis-twitter.git
+   cd sentiment-analysis-twitter
+   ```
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Download the dataset from Kaggle and place it in the project directory.
+
+## Usage
+1. Run the preprocessing script:
+   ```sh
+   python preprocess.py
+   ```
+2. Train the model:
+   ```sh
+   python train.py
+   ```
+3. Evaluate the model:
+   ```sh
+   python evaluate.py
+   ```
+
+## Results
+The project compares multiple classifiers to determine which model provides the best accuracy for sentiment classification. The performance is evaluated using metrics like accuracy, precision, recall, and F1-score.
+
+## Future Enhancements
+- Implement deep learning models like LSTMs and Transformers.
+- Use real-time Twitter API to fetch live tweets.
+- Deploy the model as a web app.
+
+## Contributing
+Feel free to fork this repository and contribute by submitting a pull request.
+
+## License
+This project is licensed under the MIT License.
