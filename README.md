@@ -4,10 +4,9 @@
 This project demonstrates how to create a Twitter sentiment analysis model using Python. Sentiment analysis is used to determine the emotions and opinions of people on various topics. In this project, we analyze people's sentiment towards Pfizer vaccines by utilizing machine learning techniques on Twitter data.
 
 ## Dataset
-The dataset used in this project is obtained from **Kaggle**. The collected tweets from Twitter are analyzed to classify them into three sentiment categories:
-- **Positive**
-- **Negative**
-- **Neutral**
+## Dataset
+The dataset used is **[Pfizer Vaccine Tweets](https://www.kaggle.com/datasets/gpreda/pfizer-vaccine-tweets)** from Kaggle.
+
 
 ## Tech Stack Used
 - **Programming Language:** Python
