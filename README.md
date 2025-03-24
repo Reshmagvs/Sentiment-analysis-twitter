@@ -26,7 +26,7 @@ The dataset used in this project is obtained from **Kaggle**. The collected twee
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/sentiment-analysis-twitter.git
+   git clone https://github.com/Reshmagvs/Sentiment-analysis-twitter
    cd sentiment-analysis-twitter
    ```
 2. Install dependencies:
