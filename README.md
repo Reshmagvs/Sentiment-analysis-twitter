@@ -25,7 +25,7 @@ The dataset used is [![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Pfize
 1. Clone the repository:
    ```sh
    git clone https://github.com/Reshmagvs/Sentiment-analysis-twitter
-   cd sentiment-analysis-twitter
+   cd Sentiment-analysis-twitter
    ```
 2. Install dependencies:
    ```sh
